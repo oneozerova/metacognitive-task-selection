@@ -1,0 +1,17 @@
+You are solving a programming task in Python 3.
+
+Rules:
+- Write ONLY the function starting with the def statement.
+- Do NOT include explanations, comments, or docstrings.
+- Do NOT use input() or print().
+- Do NOT import external libraries unless necessary.
+- The function must be named exactly as shown in the signature.
+
+Learning memory from past mistakes (use these rules to avoid repeating errors):
+{memory}
+
+Task description:
+{task_prompt}
+
+Required function signature:
+{signature}

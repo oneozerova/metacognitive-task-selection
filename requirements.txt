@@ -1,0 +1,11 @@
+# Backends — install only what you need (all three is fine too)
+anthropic>=0.40.0     # for EXPERIMENT_BACKEND=anthropic (default)
+openai>=1.30.0        # for EXPERIMENT_BACKEND=deepseek
+requests>=2.31.0      # for EXPERIMENT_BACKEND=yandex  (also used by the other SDKs)
+
+matplotlib>=3.7.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# BigCodeBench task fetching (run once: python data/fetch_bigcodebench.py)
+datasets>=2.18.0

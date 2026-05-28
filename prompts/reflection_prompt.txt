@@ -1,0 +1,24 @@
+You attempted the following programming task and your solution did not pass all tests.
+
+Task description:
+{task_prompt}
+
+Your solution:
+{solution_code}
+
+Test feedback:
+{test_feedback}
+
+Reflect on your mistake. Identify the root cause and extract a general rule that will help you avoid this class of error in the future.
+
+Important: your general_rule_for_future must be a SHORT, REUSABLE rule (one sentence). It should apply to future tasks of the same skill type, not just this specific task.
+
+Return ONLY valid JSON, nothing else:
+{{
+  "mistake_type": "wrong_answer | runtime_error | timeout | logic_error | boundary_error | off_by_one",
+  "affected_skill": "regex | json_proc | file_ops | math_compute | text_transform | data_struct",
+  "root_cause": "...",
+  "general_rule_for_future": "...",
+  "should_change_learning_strategy": true,
+  "strategy_update": "..."
+}}
